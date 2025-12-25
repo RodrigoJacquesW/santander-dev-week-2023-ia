@@ -1,0 +1,73 @@
+# Santander Dev Week 2023 – IA Project
+
+This repository contains a simple project developed during the **Santander Dev Week 2023** bootcamp.
+
+The main goal of the project is to practice:
+- API consumption
+- Basic ETL concepts (Extract, Transform, Load)
+- Integration with an AI API (OpenAI)
+- Project structure and organization in Python
+
+## ⚠️ Known Issue
+
+At the moment, the AI integration may not work as expected due to **API quota / billing limitations** on the OpenAI side.
+
+If you run the project and receive errors like:
+
+this is expected and related to missing or exhausted API credits, not to the project structure itself.
+
+## 🧠 Project Flow (High Level)
+
+1. **Extract**
+   - Fetch users from a local API (`/users`)
+2. **Transform**
+   - Generate a short personalized investment message using AI
+3. **Load**
+   - Update the user data back to the API
+
+## 🛠 Tech Stack
+
+- Python
+- Requests
+- OpenAI SDK
+- Virtual Environment (`venv`)
+
+## 🚀 How to Run
+
+```bash
+python main.py
+
+
+this is expected and related to missing or exhausted API credits, not to the project structure itself.
+
+## 🧠 Project Flow (High Level)
+
+1. **Extract**
+   - Fetch users from a local API (`/users`)
+2. **Transform**
+   - Generate a short personalized investment message using AI
+3. **Load**
+   - Update the user data back to the API
+
+## 🛠 Tech Stack
+
+- Python
+- Requests
+- OpenAI SDK
+- Virtual Environment (`venv`)
+
+## 🚀 How to Run
+
+```bash
+python main.py
+
+Make sure you have:
+
+A running local API
+
+A valid OPENAI_API_KEY set as an environment variable
+
+📌 Notes
+
+This project was created for learning purposes during the bootcamp and is not intended for production use.
+
